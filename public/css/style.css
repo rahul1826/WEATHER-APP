@@ -1,0 +1,56 @@
+body{
+    color:#444444;
+    background-image: url("https://i.pinimg.com/originals/cb/6d/2c/cb6d2c974f71580b964c1f931e8b2aa3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin:0 auto;
+    padding: 0 64px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    color: #111111;
+    border-top: 1px solid grey;
+    margin-top:64px;
+}
+.wForm{
+    margin-top: 16px;
+    flex:0.9;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+h1{
+    font-size: 64px;
+}
+header a{
+    margin-right: 16px;
+    text-decoration: none;
+}
+input{
+    padding: 8px;
+}
+button{
+    padding:8px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+#m1{
+    font-size: 32px;
+    font-family: emoji;
+}
+p#m2{
+    font-size: 32px;
+    width:max-content;
+    font-family: emoji;
+    color: whitesmoke;
+}
+p#date{
+    font-size:32px;
+    color:teal;
+}
