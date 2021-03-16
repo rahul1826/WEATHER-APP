@@ -16,7 +16,7 @@ app.set("views",pathToViews)
 
 hbs.registerPartials(pathToPartials)
 const today=new Date()
-const day=today.getUTCDay()
+const day=today.getDate()
 const month=today.toLocaleString('default', { month: 'long' })
 app.get("",(req,res)=>{
     res.render("index",{
